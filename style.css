@@ -5,6 +5,7 @@
   margin: 0;
   box-sizing: border-box;
   font-family: "Roboto", sans-serif;
+}
 
 .row {
   width: 100%;
@@ -88,13 +89,31 @@ h2 {
   width: 60%;
   max-width: 1200px;
 }
-.mail__link--anchor-primary {
+.mail {
+  display: flex;
+  max-width: 448px;
+  align-items: center;
   padding: 8px 128px;
   border-radius: 50px;
   background-color: bisque;
+  font-size: 24px;
+  font-weight: bold;
   color: black;
   text-decoration: none;
 
+}
+.mail__button {
+  padding: 8px 64px;
+  border: 1px solid blue;
+  border-radius: 50px;
+  color: white;
+  background-color: blue;
+}
+input {
+  font-size: 24px;
+  font-weight: bold;
+  color: black;
+  border-radius: 50px;
 }
 .Beautiful {
   display: flex;
