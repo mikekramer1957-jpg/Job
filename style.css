@@ -128,7 +128,7 @@ input {
   border-radius: 50px;
   border: 2px solid rgb(229, 231, 235);
 }
-.mail__input {
+.email__input {
   height: 68px;
 }
 .Beautiful {
@@ -142,6 +142,78 @@ input {
 
 .logo-strip {
   max-width: 300px;
-  margin-left: 50px;
-  margin-bottom: 100px;
+}
+
+.container2 {  /* Big container for the whole page */
+  border: 1px solid red;
+  width: 1040px;
+  padding: 80px 0; 
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+}
+
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+
+
+}
+.features {
+  display:flex;
+  flex-direction: column;
+  align-items: center; /*Centers the text horizontially */
+  text-align: center;
+}
+
+.features__title {
+  max-width: 400px;
+  font-size: 16px; 
+  font-weight: bold;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  line-height: 1.5;
+} 
+.amazing__service {
+  font-size: 24px;
+  margin-bottom: 10px 0;
+}
+.section__paragraph {
+  max-width: 560px;
+  font-size: 16px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+h1 {
+  color: purple; /* changes the color of Features to purple */
+}
+
+h2 {
+  font-size: 56px; 
+  font-weight: 700;
+  color: black;
+}
+.purple {
+  color:purple; /* color purple a span in the h2 */
+}
+.container {
+  width: 100%; /* full width of container */
+  max-width: 1200px;
+  margin: auto;
+}
+
+.window-container {
+  display: flex; /* Use Flexbox to layout windows */
+  justify-content: space-around; /* spaces windows evently */
+  flex-wrap: wrap; /*allows wrapping if screen too small */
+}
+.window {
+  width: calc(33.33-10px); /*Each box takes up 1/6th of the width */
+  background-color: #f0f0f0; /* light gray background */
+  border: 1px solid #ccc; /* light border */
+  border-radius: 8px;  /* rounded corners */
+  padding: 20px; /*inner spacing */
+  margin: 5px; /* spacing between windows */
+  text-align: center;
 }
