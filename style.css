@@ -157,8 +157,13 @@ input {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
-
 }
+.features__row {
+  flex-direction: column;
+  width: 100%;
+}
+
+
 
 
 .features {
@@ -202,6 +207,7 @@ h2 {
 
 .window-container {
   display: flex; /* Use Flexbox to layout windows */
+  width: 100%;
   justify-content: space-around; /* spaces windows evenly */
   flex-wrap: wrap; /*allows wrapping if screen too small */
 }
