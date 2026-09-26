@@ -144,7 +144,7 @@ input {
   max-width: 300px;
 }
 
-.container2 {  /* Big container for the whole page */
+.container {  /* Big container for the whole page */
   border: 1px solid red;
   width: 1040px;
   padding: 80px 0; 
@@ -158,8 +158,9 @@ input {
   max-width: 1200px;
   margin: 0 auto;
 
-
 }
+
+
 .features {
   display:flex;
   flex-direction: column;
@@ -196,24 +197,21 @@ h2 {
 }
 .purple {
   color:purple; /* color purple a span in the h2 */
-}
-.container {
-  width: 100%; /* full width of container */
-  max-width: 1200px;
-  margin: auto;
+
 }
 
 .window-container {
   display: flex; /* Use Flexbox to layout windows */
-  justify-content: space-around; /* spaces windows evently */
+  justify-content: space-around; /* spaces windows evenly */
   flex-wrap: wrap; /*allows wrapping if screen too small */
 }
 .window {
-  width: calc(33.33-10px); /*Each box takes up 1/6th of the width */
+  width: calc(100%/3); /*Each box takes up 1/6th of the width */
   background-color: #f0f0f0; /* light gray background */
   border: 1px solid #ccc; /* light border */
   border-radius: 8px;  /* rounded corners */
   padding: 20px; /*inner spacing */
-  margin: 5px; /* spacing between windows */
+ /* spacing between windows */
   text-align: center;
 }
+
