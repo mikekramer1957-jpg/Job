@@ -210,10 +210,11 @@ h2 {
   width: 100%;
   justify-content: space-around; /* spaces windows evenly */
   flex-wrap: wrap; /*allows wrapping if screen too small */
+  gap: 20px; /* allows for a gap between boxes */
+
 }
 .window {
-  width: calc(100%/3); /*Each box takes up 1/6th of the width */
-  background-color: #f0f0f0; /* light gray background */
+  width: calc(100%/4); /*Each box takes up 1/8th of the width */
   border: 1px solid #ccc; /* light border */
   border-radius: 8px;  /* rounded corners */
   padding: 20px; /*inner spacing */
