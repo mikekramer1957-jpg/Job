@@ -221,4 +221,8 @@ h2 {
  /* spacing between windows */
   text-align: center;
 }
-
+.feature__icon {
+  width: 50px; /*set a default width for icons */
+  height : auto;
+  margin: 10px;
+}
