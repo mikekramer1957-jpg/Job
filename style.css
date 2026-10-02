@@ -192,11 +192,16 @@ input {
   line-height: 1.5;
 }
 h1 {
-  color: purple; /* changes the color of Features to purple */
+  color: black; /* changes the color of Features to purple */
+  font-size: 10px;
+  font-weight: 700;
+}
+.p {
+  font-size: 5px;
 }
 
 h2 {
-  font-size: 56px; 
+  font-size: 24px; 
   font-weight: 700;
   color: black;
 }
@@ -215,14 +220,16 @@ h2 {
 }
 .window {
   width: calc(100%/3.5); /*Each box takes up 1/8th of the width */
-  border: 1px solid #ccc; /* light border */
-  border-radius: 8px;  /* rounded corners */
+  display: flex;
+  align-items:flex-start;
+  gap:16px;
+  text-align: left;
   padding: 20px; /*inner spacing */
  /* spacing between windows */
-  text-align: center;
 }
 .feature__icon {
-  width: 20px; /*set a default width for icons */
-  height : auto;
-  margin: 10px;
+  width: 24px; /*set a default width for icons */
+  border: 1px solid#e5e7eb;
+  border-radius: 50%;
+  box-sizing:content-box;
 }
