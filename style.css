@@ -191,8 +191,8 @@ input {
   margin: 0 auto;
   line-height: 1.5;
 }
-h1 {
-  color: black; /* changes the color of Features to purple */
+h3 {
+  color: black; /* changes the color of Features to black */
   font-size: 10px;
   font-weight: 700;
 }
@@ -210,7 +210,7 @@ h2 {
 
 }
 
-.window-container {
+.feature-container {
   display: flex; /* Use Flexbox to layout windows */
   width: 100%;
   justify-content: space-around; /* spaces windows evenly */
@@ -218,7 +218,7 @@ h2 {
   gap: 24px; /* allows for a gap between boxes */
 
 }
-.window {
+.feature {
   width: calc(100%/3.5); /*Each box takes up 1/8th of the width */
   display: flex;
   align-items:flex-start;
@@ -229,7 +229,11 @@ h2 {
 }
 .feature__icon {
   width: 24px; /*set a default width for icons */
-  border: 1px solid#e5e7eb;
+  border: 1px solid #e5e7eb;
   border-radius: 50%;
   box-sizing:content-box;
+}
+.feature__title {
+  font-size: 20px;
+  margin-bottom: 8px;
 }
