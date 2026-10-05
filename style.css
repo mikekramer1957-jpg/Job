@@ -193,7 +193,7 @@ input {
 }
 h3 {
   color: black; /* changes the color of Features to black */
-  font-size: 10px;
+  font-size: 20px;
   font-weight: 700;
 }
 .p {
@@ -210,7 +210,7 @@ h2 {
 
 }
 
-.feature-container {
+.feature-container{
   display: flex; /* Use Flexbox to layout windows */
   width: 100%;
   justify-content: space-around; /* spaces windows evenly */
@@ -237,3 +237,4 @@ h2 {
   font-size: 20px;
   margin-bottom: 8px;
 }
+/*Design and Develope*/
