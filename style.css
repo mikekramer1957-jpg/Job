@@ -238,3 +238,32 @@ h2 {
   margin-bottom: 8px;
 }
 /*Design and Develope*/
+
+.row  {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.dd pros {
+  width: calc(100%/2);
+  display:flex;
+  align-items: flex-start;
+  gap: 16px;
+  text-align: left;
+  padding: 20px;
+}
+.design {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+.learn__button {
+  padding: 8px 64px;
+  border: 1px solid blue;
+  border-radius: 50px;
+  color: white;
+  height: calc (100%-16px);
+  position: relative;
+  background-color: blue;
+}
