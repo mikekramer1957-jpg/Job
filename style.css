@@ -201,7 +201,7 @@ h3 {
 }
 
 h2 {
-  font-size: 24px; 
+  font-size: 40px; 
   font-weight: 700;
   color: black;
 }
@@ -237,27 +237,44 @@ h2 {
   font-size: 20px;
   margin-bottom: 8px;
 }
+
+
 /*Design and Develope*/
+.flex-container {
+  display: flex;
+  justify-content: space-between;
+}
+.container1 .container2 {
+  width: calc(50%);
+}
 
 .row  {
   width: 100%;
   max-width: 1200px;
   margin: 0 auto;
 }
-.dd pros {
-  width: calc(100%/2);
-  display:flex;
-  align-items: flex-start;
-  gap: 16px;
-  text-align: left;
-  padding: 20px;
-}
+
 .design {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
+.section__title {
+  font-size: 16px;
+  font-weight: bold;
+  margin-left: 20px;
+ }
+ .section__subtitle {
+  margin-left: 20px;
+  .h2 {
+    font-size: 40px;
+    .container p {
+      font-size: 10px;
+    }
+  }
+ }
+
 .learn__button {
   padding: 8px 64px;
   border: 1px solid blue;
@@ -266,4 +283,5 @@ h2 {
   height: calc (100%-16px);
   position: relative;
   background-color: blue;
+  margin-left: 20px;
 }
