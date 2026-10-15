@@ -285,11 +285,31 @@ h2 {
   background-color: blue;
   margin-left: 20px;
 }
-.section__subtitle {
-  .h2 {
-    font-size: 24px;
+.container4 ol {
+  display: block;
+  list-style-typed:decimal;
+  padding-left:40px;
+}
+.container4 li {
+  display: list-items;
+}
+.highlight {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  padding: 10px;
+}
+ol {
+  counter-reset: list; /* Start counting from zero */
+}
+ol oi {
+  counter-increment: list; /* increments the counter */
+  list-style: none; /* remove default list style */
+  ol l li ::before {
+    content: counter(list,decimal-leading-zero) ". "; /*Format numbering */
+    background-color: #f0f0f0;
+    padding: 5px; /* Rounds the corners */
+    margin-right: 10px; /*Add space between numbers and text */
   }
-  .container p {
-    font-size: 14px;
-  }
+
 }
