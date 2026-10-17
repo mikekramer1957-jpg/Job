@@ -299,17 +299,22 @@ h2 {
   margin-bottom: 20px;
   padding: 10px;
 }
+
 ol {
   counter-reset: list; /* Start counting from zero */
+  list-style: none; /*remove default list style */
 }
-ol oi {
-  counter-increment: list; /* increments the counter */
-  list-style: none; /* remove default list style */
-  ol l li ::before {
-    content: counter(list,decimal-leading-zero) ". "; /*Format numbering */
+ol li {
+  counter-increment: countdown; /* Increment Counter */
+  font-size: 18px; /*set size for the list */
+}
+  ol li::before {
+    content:"0"
+    counter(countdown) "."; /*Format numbering */
+    font-size: 24px; /*increase font size of the numbers */
+    color:#333; /* You can change to desired color */
     background-color: #f0f0f0;
     padding: 5px; /* Rounds the corners */
     margin-right: 10px; /*Add space between numbers and text */
   }
 
-}
