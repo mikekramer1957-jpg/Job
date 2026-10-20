@@ -312,7 +312,7 @@ ol li {
     content:"0"
     counter(countdown) "."; /*Format numbering */
     font-size: 24px; /*increase font size of the numbers */
-    color:#333; /* You can change to desired color */
+    color:#6030b1; /* You can change to desired color */
     background-color: #f0f0f0;
     padding: 5px; /* Rounds the corners */
     margin-right: 10px; /*Add space between numbers and text */
