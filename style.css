@@ -286,13 +286,20 @@ h2 {
   margin-left: 20px;
 }
 .container4 ol {
+  display:flex;
+  flex-direction: column;
   display: block;
   list-style-typed:decimal;
   padding-left:40px;
 }
 .container4 li {
-  display: list-items;
-}
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+    margin: 0 10px;
+  }
+
 .highlight {
   font-size: 20px;
   font-weight: bold;
@@ -303,10 +310,14 @@ h2 {
 ol {
   counter-reset: countdown; /* Start counting from zero */
   list-style: none; /*remove default list style */
+  padding: 0;
+  margin: 0;
 }
 ol li {
   counter-increment: countdown; /* Increment Counter */
   font-size: 18px; /*set size for the list */
+  display: inline-block; /* make list items inline */
+  margin: 0 10px; /*space between items */
 }
   ol li::before {
     content:"0"
@@ -316,7 +327,6 @@ ol li {
     background-color: #f0f0f0; /*changes the color around the numbers */
     padding: 5px; /* rounds the corners */
     margin-right: 10px; /* adds space between numbers */
-
   }
-  
 
+  
