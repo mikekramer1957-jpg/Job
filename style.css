@@ -292,30 +292,34 @@ h2 {
   list-style-typed:decimal;
   padding-left:40px;
 }
+.section__title {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
 .container4 li {
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 10px;
-    margin: 0 10px;
+  margin: 10px,
   }
 
 .highlight {
   font-size: 20px;
   font-weight: bold;
   margin-bottom: 20px;
-  padding: 10px;
-}
+  }
+
 
 ol {
   counter-reset: countdown; /* Start counting from zero */
-  list-style: none; /*remove default list style */
+  list-style-type: none; /*remove default list style */
   padding: 0;
   margin: 0;
 }
 ol li {
   counter-increment: countdown; /* Increment Counter */
-  font-size: 18px; /*set size for the list */
+  font-size: 16px; /*set size for the list */
   display: inline-block; /* make list items inline */
   margin: 0 10px; /*space between items */
 }
@@ -324,9 +328,14 @@ ol li {
     counter(countdown) ".";
     font-size: 24px; /*increase size of the numbers */
     color:#6030b1; /* you can change to desired color of numbers */
-    background-color: #f0f0f0; /*changes the color around the numbers */
     padding: 5px; /* rounds the corners */
     margin-right: 10px; /* adds space between numbers */
   }
+  
+  .gray-text {
+    color: gray-text; /*Changes the color of the paragraph text. Change the html too.*/
+  }
+  
+  
 
   
