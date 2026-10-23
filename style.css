@@ -335,7 +335,52 @@ ol li {
   .gray-text {
     color: gray-text; /*Changes the color of the paragraph text. Change the html too.*/
   }
-  
-  
 
+/* Plans Available */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+  .payment-plans {
+    display: flex; /*flexbox layout */
+    justify-content: space-between; /* space out the plan */
+    gap: 20px; /*space between each plan */
+    padding: 20px; /*padding around container */
+  }
+  .plan {
+    flex: 1; /* Make each plan grow equally */
+    border: 1px solid #ddd; /* optional border for each plan */
+    padding: 20px; /*padding inside each plan */
+    border-radius: 8px; /* Rounds corners */
+  }
+  .payment-plan {
+    text-align: center; /* center align content */
+  }
+  .price {
+    font-weight: bold;
+    font-size: 24px; /* Adjust for size */
+  }
+.duration {
+  font-weight: bold;
+  margin-top: 5px; /*space between price and duration */
+  font-size: 16px; /*adjust for size */
+}
+.type {
+  margin-top: 5px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.pricing__title {
+  text-align: center;
+  font-size: 16px;
+}
+.section__subtitle {
+  text-align: center;
+  font-size: 32px;
+}
+#pricing P.section__subtitle {
+  font-size: 16px;
+}
   
