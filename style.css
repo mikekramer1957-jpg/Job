@@ -145,7 +145,7 @@ input {
 }
 
 .container {  /* Big container for the whole page */
-  border: 1px solid red;
+  border: 1px solid blue;
   width: 1040px;
   padding: 80px 0; 
   margin-left: auto;
@@ -338,9 +338,8 @@ ol li {
 
 /* Plans Available */
 .container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+display: flex;
+justify-content: space-between;
 }
 
   .payment-plans {
