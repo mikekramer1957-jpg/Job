@@ -337,10 +337,6 @@ ol li {
   }
 
 /* Plans Available */
-.container {
-display: flex;
-justify-content: space-between;
-}
 
   .payment-plans {
     display: flex; /*flexbox layout */
@@ -355,7 +351,10 @@ justify-content: space-between;
     border-radius: 8px; /* Rounds corners */
   }
   .payment-plan {
-    text-align: center; /* center align content */
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
   }
   .price {
     font-weight: bold;
@@ -376,7 +375,7 @@ justify-content: space-between;
   text-align: center;
   font-size: 16px;
 }
-.section__subtitle {
+#pricing .section__subtitle {
   text-align: center;
   font-size: 32px;
 }
@@ -397,7 +396,9 @@ justify-content: space-between;
   justify-content: space-between;
   margin-bottom: 15px;
 }
+
 .plan2 {
   background-color:cornflowerblue;
   color:white;
 }
+
