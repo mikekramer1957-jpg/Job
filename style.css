@@ -350,11 +350,11 @@ ol li {
     padding: 20px; /*padding inside each plan */
     border-radius: 8px; /* Rounds corners */
   }
-  .payment-plan {
+  .payment-plans {
     display: flex;
     justify-content: space-between;
-    gap: 20px;
-    padding: 20px;
+    width: 100%;
+    gap: 24px;
   }
   .price {
     font-weight: bold;
@@ -400,5 +400,11 @@ ol li {
 .plan2 {
   background-color:cornflowerblue;
   color:white;
+}
+.plan1,
+.plan2,
+.plan3 {
+  flex: 1;
+  min-width: 0;
 }
 
