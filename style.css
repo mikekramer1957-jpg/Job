@@ -92,7 +92,7 @@ h2 {
 
 
 .mail__button {
-  padding: 8px 64px;
+  padding: 8px 16px;
   border: 1px solid blue;
   border-radius: 50px;
   color: white;
@@ -276,7 +276,7 @@ h2 {
  }
 
 .learn__button {
-  padding: 8px 64px;
+  padding: 8px 32px;
   border: 1px solid blue;
   border-radius: 50px;
   color: white;
@@ -382,6 +382,9 @@ ol li {
 #pricing P.section__subtitle {
   font-size: 16px;
 }
+#pricing .pricing {
+  width: 100%;
+}
 
 .basic {
   align-items: center;
@@ -389,13 +392,47 @@ ol li {
   margin-bottom: 15px;
 }
 .small {
+  align-items:center;
   justify-content: space-between;
   margin-bottom: 15px;
 }
 .enter {
+  align-items: center;
   justify-content: space-between;
   margin-bottom: 15px;
 }
+.buy1__button {
+  margin-top: 64px;
+  padding:8px 16px;
+  border: 1px black; 
+  border-radius: 50px;
+  color: white;
+  height: calc(100%-16px);
+  background-color: green; 
+  margin-left:20px;
+}
+.buy2__button {
+  margin-top: 64px;
+   padding:8px 16px;
+  border: 1px black; 
+  border-radius: 50px;
+  color: blue;
+  height: calc(100%-16px);
+  background-color:white; 
+  margin-left:20px;
+}
+.buy3__button {
+  margin-top: 64px;
+  padding:8px 16px;
+  border: 1px black; 
+  border-radius: 50px;
+  color: white;
+  height: calc(100%-16px);
+  background-color:red; 
+  margin-left:20px;
+} 
+
+
 
 .plan2 {
   background-color:cornflowerblue;
