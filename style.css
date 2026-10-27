@@ -364,6 +364,7 @@ ol li {
   font-weight: bold;
   margin-top: 5px; /*space between price and duration */
   font-size: 16px; /*adjust for size */
+  margin-bottom: 20px;
 }
 .type {
   margin-top: 5px;
@@ -409,7 +410,6 @@ ol li {
   color: white;
   height: calc(100%-16px);
   background-color: green; 
-  margin-left:20px;
 }
 .buy2__button {
   margin-top: 64px;
@@ -419,7 +419,6 @@ ol li {
   color: blue;
   height: calc(100%-16px);
   background-color:white; 
-  margin-left:20px;
 }
 .buy3__button {
   margin-top: 64px;
@@ -429,8 +428,17 @@ ol li {
   color: white;
   height: calc(100%-16px);
   background-color:red; 
-  margin-left:20px;
 } 
+.buy1__button,
+.buy2__button,
+.buy3__button {
+  display:block;
+  width: fit-content;
+  margin: 64px auto 0;
+}
+.plan1 {
+  border-top: 8px solid green;
+}
 
 
 
@@ -438,10 +446,17 @@ ol li {
   background-color:cornflowerblue;
   color:white;
 }
+.plan3 {
+  border-top: 8px solid red;
+}
 .plan1,
 .plan2,
 .plan3 {
   flex: 1;
   min-width: 0;
+}
+.plan {
+  align-items: center;
+  
 }
 
