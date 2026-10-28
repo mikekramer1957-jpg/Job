@@ -361,9 +361,17 @@ ol li {
     font-size: 24px; /* Adjust for size */
   }
 .duration {
+  color:gray;
   font-weight: bold;
   margin-top: 5px; /*space between price and duration */
   font-size: 16px; /*adjust for size */
+  margin-bottom: 20px;
+}
+.corn {
+  color:white;
+  font-weight: bold;
+  margin-top: 5px;
+  font-size: 16px; 
   margin-bottom: 20px;
 }
 .type {
@@ -404,7 +412,7 @@ ol li {
 }
 .buy1__button {
   margin-top: 64px;
-  padding:8px 16px;
+  padding:8px 32px;
   border: 1px black; 
   border-radius: 50px;
   color: white;
@@ -413,7 +421,7 @@ ol li {
 }
 .buy2__button {
   margin-top: 64px;
-   padding:8px 16px;
+   padding:8px 32px;
   border: 1px black; 
   border-radius: 50px;
   color: blue;
@@ -422,7 +430,7 @@ ol li {
 }
 .buy3__button {
   margin-top: 64px;
-  padding:8px 16px;
+  padding:8px 32px;
   border: 1px black; 
   border-radius: 50px;
   color: white;
@@ -444,7 +452,10 @@ ol li {
 
 .plan2 {
   background-color:cornflowerblue;
-  color:white;
+  color: white;
+}
+.white {
+color: white;
 }
 .plan3 {
   border-top: 8px solid red;
@@ -456,7 +467,7 @@ ol li {
   min-width: 0;
 }
 .plan {
-  align-items: center;
+  text-align: center;
   
 }
 
