@@ -471,3 +471,36 @@ color: white;
   
 }
 
+
+/*TESTIMONIALS */
+.container {
+  display:flex;
+  flex-direction: column;
+}
+.row {
+  display: flex;
+  justify-content: space-between;
+}
+#testimonial {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+
+}
+#Clients {
+  display: flex;
+  flex-direction: column;
+  align-items:flex-start;
+}
+.testimonial__title {
+  font-size: 16px;
+}
+.testimonial__text {
+  font-size: 32px; /*smaller than the title */
+  font-weight: bold;
+  color: #333; /*change color as needed */
+  margin-top: 10px; /* adds space above paragraph */
+}
+
+
