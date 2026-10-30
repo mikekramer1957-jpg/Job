@@ -477,22 +477,7 @@ color: white;
   display:flex;
   flex-direction: column;
 }
-.row {
-  display: flex;
-  justify-content: space-between;
-}
-#testimonial {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  margin-bottom: 20px;
 
-}
-#Clients {
-  display: flex;
-  flex-direction: column;
-  align-items:flex-start;
-}
 .testimonial__title {
   font-size: 16px;
 }
@@ -503,4 +488,40 @@ color: white;
   margin-top: 10px; /* adds space above paragraph */
 }
 
+/*Treact */
+.container {
+  align-items: center;
+}
+
+.flex-container {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+}
+.header__description {
+  font-size: 16px;
+}
+.btn1 {
+  margin: 64px;
+  padding: 8px 32px;
+  background-color: red;
+  color: white;
+  border:none;
+  border-radius: 50px;
+  height: calc(100%-16px);
+  cursor: pointer;
+  margin: 5px;
+}
+
+.btn2 {
+  margin:64px;
+  padding: 8px 32px;
+  background-color:#007BFF;
+  color: white;
+  border: none;
+  border-radius: 50px;
+  height: calc(100%-16px);
+  cursor: pointer;
+  margin: 5px;
+}
 
