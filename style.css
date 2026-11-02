@@ -147,7 +147,6 @@ input {
 .container {  /* Big container for the whole page */
   border: 1px solid blue;
   width: 1040px;
-  padding: 80px 0; 
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 20px;
@@ -489,10 +488,14 @@ color: white;
 }
 
 /*Treact */
-
-.header__container {
+.container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.header__container { 
+  margin-bottom: 198px;
   align-items: center;
   background-color: blue;
   padding: 20px;
@@ -500,7 +503,6 @@ color: white;
 }
 
 .flex-container {
-  display: flex;
   gap: 15px;
   justify-content: center;
 }
@@ -523,9 +525,9 @@ color: white;
 .btn2 {
   margin:64px;
   padding: 8px 32px;
-  background-color:#007BFF;
+  background-color:blue;
   color: white;
-  border: none;
+  border: 1px solid white;
   border-radius: 50px;
   height: calc(100%-16px);
   cursor: pointer;
