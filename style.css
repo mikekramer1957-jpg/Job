@@ -145,6 +145,8 @@ input {
 }
 
 .container {  /* Big container for the whole page */
+  background-color: lightgray;
+  position: relative;
   border: 1px solid blue;
   width: 1200px;
   margin-left: auto;
@@ -494,8 +496,7 @@ color: white;
   align-items: center;
 }
 
-.header__container { 
-  margin-bottom:198px;
+.header__container1 { 
   align-items: center;
   background-color: blue;
   padding: 20px;
@@ -506,7 +507,7 @@ color: white;
   padding: 15px;
   justify-content: center;
 }
-.header__description {
+.header__description1 {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -545,5 +546,57 @@ color: white;
   font-weight: bold;
   margin-bottom: 10px;
   color: white;
+}
+.header__container2 {
+  left: 0;
+  right:0;
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  max-width:1000px;
+  margin:auto;
+  background-color: blue;
+  padding: 40px;
+}
+.header__description2 {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 24px;
+  width: 100%;
+  color: white;
+}
+.header__container1 {
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  background-color: blue;
+  padding: 40px;
+}
+#Treact .row,
+#Signs .row {
+  justify-content: center;
+}
+
+/* Footer */
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  background-color: white;
+}
+.footer__cright {
+  width: 32px;
+  height: 32px;
+  font-size: 8px;
+  font-style: italic;
+  font-weight: 100;
 }
 
