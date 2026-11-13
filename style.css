@@ -145,9 +145,7 @@ input {
 }
 
 .container {  /* Big container for the whole page */
-  background-color: lightgray;
   position: relative;
-  border: 1px solid blue;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -490,9 +488,9 @@ color: white;
 }
 
 /*Treact */
+
 .container {
   display: flex;
-  flex-direction: column;
   align-items: center;
 }
 
@@ -574,29 +572,24 @@ color: white;
   margin: 0 auto;
   background-color: blue;
   padding: 40px;
+
 }
-#Treact .row,
-#Signs .row {
-  justify-content: center;
+.main-container {
+  display: flex;
+  flex-direction: column;
+}
+.horizontal-row {
+  display: flex; /* aligns verticla cells in a row */
+  justify-content: content; /*spaces them out evenly */
+  padding: 10px;
+}
+.veritcal-cell {
+  flex:1; /* Allows cells to grow equally */
+  text-align: center; /*centers texts*/
+  border: 1px solid #ccc;
+  padding: 10px;
 }
 
 /* Footer */
 
-.footer {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.icon {
-  width: 32px;
-  height: 32px;
-  background-color: white;
-}
-.footer__cright {
-  width: 32px;
-  height: 32px;
-  font-size: 8px;
-  font-style: italic;
-  font-weight: 100;
-}
 
