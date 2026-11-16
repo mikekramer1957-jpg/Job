@@ -573,22 +573,40 @@ color: white;
   background-color: blue;
   padding: 40px;
 
-}
+} 
+
+ 
+/* Last Section */
+
 .main-container {
+  background-color: blue;
   display: flex;
-  flex-direction: column;
+  justify-content: space-between;
 }
-.horizontal-row {
-  display: flex; /* aligns verticla cells in a row */
-  justify-content: content; /*spaces them out evenly */
-  padding: 10px;
+.contact-lists {
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  padding: 20px;
 }
-.veritcal-cell {
-  flex:1; /* Allows cells to grow equally */
-  text-align: center; /*centers texts*/
-  border: 1px solid #ccc;
-  padding: 10px;
+
+.contacts__title {
+  color: white;
+  font-size: 16px;
+  font-weight: bold; /*Make Header Bold */
+
 }
+.section__subtitle {
+  color: white;
+  font-size: 8px;
+  margin: 5px 0; /* Space between items */
+}
+
+  
+
+  
+
+
 
 /* Footer */
 
