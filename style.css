@@ -16,9 +16,10 @@
   justify-content: space-between;
   padding: 20px;
 }
-.nav__container {
+.nav__row {
+  display: flex;
   width: 100%;
-  max-width: 1100px;
+  max-width: 1200px;
   height: 90px;
   margin: 0 auto;
   display: flex;
@@ -30,23 +31,38 @@
 
 
 
-.nav__links li {
+.nav__links {
   display: flex;
   align-items: center;
   gap: 24px;
   list-style: none;
+  
 }
+.nav__link {
+  text-decoration: none;
+}
+
 
 .logo {
   width: 40px;
   height: 40px;
-  font-size: 30px;
+  font-size: 32px;
+}
+.logo__treact {
+  font-weight: bold;
+  color: #243e63;
+  font-size: 28px;
+  margin: 0,0,0, 12px;
+  padding: 0,0,0, 2px;
 }
 .nav__logo--title {
-  margin-left:20px;
-  font-size: 20px;
-  font-weight:900;
+  margin-left: 12px;
+  font-size: 24px;
+  font-weight: 900;
+  padding-bottom: 2px;
+  letter-spacing: 0.6px;
 }
+
 
 
 img {
@@ -64,26 +80,37 @@ img {
   margin: 0 20px;
   color:#242424;
   font-weight: 700;
+  font-size: 16px;
 }
 
 .nav__link--anchor-primary {
-  background-color: #6030b1;
-  padding: 8px 20px;
+  background-color: #6415ff;
+  padding: 10px 32px;
   border-radius: 50px;
   color: white;
   text-decoration: none;
 }
+/*Beautiful Treact Templates */
+
 .Beautiful .purple {
   color: purple;
 }
 .Beautiful {
   width: 40%;
   max-width: 1200px;
+  display: flex;
+  flex-direction: column; 
+  gap: 20px;
 }
-h2 {
-  font-size: 56px;
+.section__title-description {
+  font-size: 36px;
   font-weight: 700;
   line-height: 1.5;
+  
+}
+
+.section__title .purple {
+  display: block;
 }
 .window {
   width: 60%;
@@ -91,16 +118,17 @@ h2 {
 }
 
 
-.mail__button {
-  padding: 8px 16px;
-  border: 1px solid blue;
+.button__email {
+  padding: 16px 32px;
+  border: 1px solid #fff;
   border-radius: 50px;
   color: white;
+  font-size: 16px;
   margin-right: 12px;
   height: calc(100% - 16px);
   z-index: 10;
   position: relative;
-  background-color: blue;
+  background-color:#6415ff;
 }
 .mail__input::placeholder{
   font-size:20px;
@@ -131,11 +159,7 @@ input {
 .email__input {
   height: 68px;
 }
-.Beautiful {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
+
 .p {
   padding: 30px;
 }
@@ -143,6 +167,8 @@ input {
 .logo-strip {
   max-width: 300px;
 }
+
+/* FEATURES */
 
 .container {  /* Big container for the whole page */
   position: relative;
@@ -181,15 +207,36 @@ input {
   line-height: 1.5;
 } 
 .amazing__service {
-  font-size: 24px;
+  font-size: 48px;
+  font-weight: bold;
   margin-bottom: 10px 0;
 }
 .section__paragraph {
+  color: (124,139,161);
   max-width: 560px;
   font-size: 16px;
   margin: 0 auto;
   line-height: 1.5;
 }
+.secure__paragraph {
+  color: grey;
+}
+.Support__paragraph {
+  color: grey;
+}
+.Custom__paragraph {
+  color: grey;
+}
+.Reliable__paragraph {
+  color: grey;
+}
+.Fast__paragraph {
+  color: grey;
+}
+.Easy__paragraph {
+  color: grey;
+}
+
 h3 {
   color: black; /* changes the color of Features to black */
   font-size: 20px;
@@ -232,8 +279,11 @@ h2 {
   border-radius: 50%;
   box-sizing:content-box;
 }
-.feature__title {
-  font-size: 20px;
+.features__title {
+  color:#6415ff;
+  font-weight: 500;
+  text-transform: uppercase;
+  font-size: 16px; 
   margin-bottom: 8px;
 }
 
@@ -253,26 +303,28 @@ h2 {
   margin: 0 auto;
 }
 
-.design {
+.container1 {
   display: flex;
   flex-direction: column;
   align-items: center;
   text-align: center;
 }
-.section__title {
+.section__tag {
+  color:6425ff;
   font-size: 16px;
+  font-weight: 700;
+  margin-left: 20px;
+ }
+ .section__title .purple {
+  font: size 8px;
+ }
+ .section__subtitle-easy {
+  color: black;
   font-weight: bold;
-  margin-left: 20px;
+  font-size: 16;
  }
- .section__subtitle {
-  margin-left: 20px;
-  .h2 {
-    font-size: 40px;
-    .container p {
-      font-size: 10px;
-    }
-  }
- }
+ 
+ 
 
 .learn__button {
   padding: 8px 32px;
@@ -284,18 +336,14 @@ h2 {
   background-color: blue;
   margin-left: 20px;
 }
-.container4 ol {
+.container ol {
   display:flex;
   flex-direction: column;
   display: block;
   list-style-typed:decimal;
   padding-left:40px;
 }
-.section__title {
-  font-size: 24px;
-  margin-bottom: 20px;
-}
-.container4 li {
+.container li {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -579,11 +627,15 @@ color: white;
 /* Last Section */
 
 .main-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
   background-color: blue;
   display: flex;
-  justify-content: space-between;
 }
-.contact-lists {
+
+.contacts-lists {
+  width: 100%;
   display: flex;
   justify-content: space-between;
   gap: 20px;
