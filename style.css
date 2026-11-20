@@ -273,6 +273,8 @@ h2 {
   padding: 20px; /*inner spacing */
  /* spacing between windows */
 }
+
+
 .feature__icon {
   width: 24px; /*set a default width for icons */
   border: 1px solid #e5e7eb;
@@ -308,24 +310,27 @@ h2 {
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-right: 80px;
 }
 .section__tag {
   color:6425ff;
-  font-size: 16px;
+  font-size: 64px;
   font-weight: 700;
-  margin-left: 20px;
  }
  .section__title .purple {
-  font: size 8px;
- }
- .section__subtitle-easy {
-  color: black;
+  font: size 64px;
   font-weight: bold;
-  font-size: 16;
+ }
+ .section__title {
+  font-size: 64px;
+ }
+ .container2 {
+  width: 50%;
  }
  
- 
-
+.section__step {
+  font-size: 16px;
+}
 .learn__button {
   padding: 8px 32px;
   border: 1px solid blue;
@@ -336,6 +341,16 @@ h2 {
   background-color: blue;
   margin-left: 20px;
 }
+ .section__subtitle-easy {
+  color: black;
+  font-weight: bold;
+  font-size: 16;
+ }
+
+
+
+
+
 .container ol {
   display:flex;
   flex-direction: column;
