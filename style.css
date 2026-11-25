@@ -291,12 +291,18 @@ h2 {
 
 
 /*Design and Develope*/
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: auto;
+}
 .flex-container {
   display: flex;
   justify-content: space-between;
 }
 .container1 .container2 {
-  width: calc(50%);
+  width: 50%; 
+  min-width: 0;
 }
 
 .row  {
@@ -309,25 +315,26 @@ h2 {
   display: flex;
   flex-direction: column;
   align-items: center;
-  text-align: center;
+  text-align: flex-start;
+  text-align: left;
   margin-right: 80px;
 }
 .section__tag {
   color:6425ff;
-  font-size: 64px;
+  font-size: 56px;
   font-weight: 700;
  }
  .section__title .purple {
-  font: size 64px;
+  font: size 56px;
   font-weight: bold;
  }
  .section__title {
-  font-size: 64px;
+  font-size: 56px;
  }
- .container2 {
-  width: 50%;
+ .section__subtitle-print { 
+  font-size: 16px;
+  font-weight:400;
  }
- 
 .section__step {
   font-size: 16px;
 }
@@ -341,62 +348,66 @@ h2 {
   background-color: blue;
   margin-left: 20px;
 }
+
+#design,
+#Easy {
+  padding: 80px 0;
+}
  .section__subtitle-easy {
   color: black;
   font-weight: bold;
   font-size: 16;
  }
 
+ /* Easy to Get Started */
 
 
-
-
-.container ol {
-  display:flex;
-  flex-direction: column;
-  display: block;
-  list-style-typed:decimal;
-  padding-left:40px;
-}
-.container li {
-  display: flex;
+ .container {
+  display: flex; 
   justify-content: space-between;
   align-items: center;
-  margin-bottom: 10px;
-  margin: 10px,
-  }
+ }
 
-.highlight {
+ .row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+ }
+
+
+
+.section__tag {
+  font-size:16px;
+  color:#6415ff;
+  letter-spacing: 1.6px;
+  font-weight: 700;
+  text-transform: uppercase; 
+}
+.section__title-easy {
   font-size: 20px;
-  font-weight: bold;
-  margin-bottom: 20px;
-  }
+  color:#243e63;
+  margin: 32px 0px;
 
-
-ol {
-  counter-reset: countdown; /* Start counting from zero */
-  list-style-type: none; /*remove default list style */
-  padding: 0;
-  margin: 0;
 }
-ol li {
-  counter-increment: countdown; /* Increment Counter */
-  font-size: 16px; /*set size for the list */
-  display: inline-block; /* make list items inline */
-  margin: 0 10px; /*space between items */
+.step__title {
+  color:#243e63;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
 }
-  ol li::before {
-    content:"0"
-    counter(countdown) ".";
-    font-size: 24px; /*increase size of the numbers */
-    color:#6030b1; /* you can change to desired color of numbers */
-    padding: 5px; /* rounds the corners */
-    margin-right: 10px; /* adds space between numbers */
-  }
-  
-  .gray-text {
-    color: gray-text; /*Changes the color of the paragraph text. Change the html too.*/
-  }
+.no__steps {
+  display: flex;
+  color: #cbd5ec;
+  font-size: 36px;
+}
+.step__number {
+  margin: 16px;
+}
+.step__para {
+  color:#718096;
+  font-size: 14px;
+  margin: 12px 0px 0px;
+}
 
 /* Plans Available */
 
